@@ -55,3 +55,4 @@ contract HyperlaneBridge is IMessageRecipient {
         mailbox.dispatch(_destinationDomain, bytes32(uint256(uint160(_recipient))), body);
     }
 }
+wave
